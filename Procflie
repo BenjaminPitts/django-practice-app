@@ -1,0 +1,1 @@
+web: gunicorn django-practice-app.wsgi
