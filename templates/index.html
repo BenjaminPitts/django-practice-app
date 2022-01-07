@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    {% load static %}
+    <link rel='stylesheet' href='{% static "main.css" %}'>
+  </head>
+  <body>
+    <h1> This is the index page of the Django practice app</h1>
+    <img src="{% static '123.jpeg' %}">
+    <br> | 
+    <a href='/about'>About</a> | 
+    <a href="{% url 'contact' %}">Contact</a> |
+    <br>
+    <br>
+    <form action="{% url 'result' %}">
+      {% csrf_token %}
+      <input type='text' name='user_int' />
+      <input class='input-button' type='submit' value='Multiply Value by 69' /><br>
+    </form>
+    <br>  
+    <button onClick="buttonFunc()">Gray.js</button><button onClick="buttonFunc2()">Black.js</button><br>
+    <script type='text/javascript' src="{% static 'main.js' %}"></script><br>
+    <footer>Built by Benjamin Pitts: <a href='https://benjaminjackpitts.dev/'>Software Engineer</a> | <a href='https://benjaminpitts-musician.herokuapp.com/'>Musician</a></footer>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+body {
+  background: black;
+  color: gold;
+  text-align: center;
+  font-size: 30px;
+}
+ul {
+  text-align: left;
+}
+a {
+  text-decoration: none;
+  font-size: 35px;
+}
+a:hover {
+  color: ivory;
+}
+button {
+  background: ivory;
+  font-size: 25px;
+  border-radius: 5px;
+}
+button:hover {
+  background: gray;
+  cursor: pointer;
+}
+img {
+  width: 500px;
+}
+input {
+font-size: 20px;
+}
+input:hover {
+  background: gray;
+}
+footer {
+  background: gray;
+  margin: 1%;
+  padding: 1%;
+}
+.input-button:hover {
+  cursor: pointer;
+}
+.lux {
+  border-radius: 10px;
+  opacity: .8;
+}
