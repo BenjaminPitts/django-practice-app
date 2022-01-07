@@ -1,1 +1,1 @@
-web: gunicorn manage:django-practice-app
+web: gunicorn manage:app
