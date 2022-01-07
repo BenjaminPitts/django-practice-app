@@ -1,1 +1,1 @@
-web: gunicorn django-practice-app.wsgi
+web: gunicorn manage:django-practice-app
