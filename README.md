@@ -6,6 +6,6 @@ serve locally with the following steps:
 - `git clone https://github.com/BenjaminPitts/django-practice-app.git`
 - `cd django-practice-app` 
 - `python3 manage.py runserver`
-
+- view in browser at: http://localhost:8000
 &nbsp;
 Created by: [Ben Pitts](https://benjaminjackpitts.dev/)
