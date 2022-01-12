@@ -5,5 +5,6 @@
 - `git clone https://github.com/BenjaminPitts/django-practice-app.git`
 - `cd view_urls` 
 - `python3 manage.py runserver`
+
 &nbsp;
 Created by: [Ben Pitts](https://benjaminjackpitts.dev/)
