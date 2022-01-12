@@ -4,6 +4,10 @@ body {
   text-align: center;
   font-size: 30px;
 }
+h2, h3, h4 {
+  margin: .2%;
+  padding: .2%;
+}
 a {
   text-decoration: none;
   font-size: 34px;
