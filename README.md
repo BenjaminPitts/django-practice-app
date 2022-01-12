@@ -1,6 +1,5 @@
 # django-practice-app
-&nbsp;
-## serve locally
+serve locally with the following steps:
 ### prerequisites: 
 - [Python3](https://www.python.org/downloads/)
 ### in your terminal, run the following commands:
