@@ -7,5 +7,6 @@ serve locally with the following steps:
 - `cd django-practice-app` 
 - `python3 manage.py runserver`
 - view in browser at: http://localhost:8000
+
 &nbsp;
 Created by: [Ben Pitts](https://benjaminjackpitts.dev/)
