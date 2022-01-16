@@ -7,7 +7,9 @@
     <link rel='stylesheet' href='{% static "main.css" %}'>
   </head>
   <body>
-    <h1> This is the index page of the Django practice app</h1>
+    <h2>Benjamin Pitts | Django Practice App</h2>
+    <h4>This application is easily served and can be used for running tests</h4>
+    <h4>See the <a href='https://github.com/BenjaminPitts/django-practice-app' target='blank'>Read Me</a> for setup steps on serving this app locally</h4> 
     <img src="{% static '123.jpeg' %}">
     <br> | 
     <a href='/about'>About</a> | 
@@ -20,7 +22,7 @@
       <input class='input-button' type='submit' value='Multiply Value by 69' /><br>
     </form>
     <br>  
-    <button onClick="buttonFunc()">Gray.js</button><button onClick="buttonFunc2()">Black.js</button><br>
+    <button onClick="buttonFunc()">lightMode.js</button><button onClick="buttonFunc2()">darkMode.js</button><br>
     <script type='text/javascript' src="{% static 'main.js' %}"></script><br>
     <footer>Built by Benjamin Pitts: <a href='https://benjaminjackpitts.dev/'>Software Engineer</a> | <a href='https://benjaminpitts-musician.herokuapp.com/'>Musician</a></footer>
   </body>

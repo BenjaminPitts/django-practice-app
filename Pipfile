@@ -6,6 +6,13 @@ name = "pypi"
 [packages]
 
 [dev-packages]
+django = "*"
+psycopg2-binary = "*"
+django-extensions = "*"
+python-dotenv = "*"
+dj-database-url = "*"
+gunicorn = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.9"
