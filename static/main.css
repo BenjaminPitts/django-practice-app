@@ -4,6 +4,10 @@ body {
   text-align: center;
   font-size: 30px;
 }
+h1, h4 {
+  margin: .2rem;
+  padding: .2rem;
+}
 ul {
   text-align: left;
 }
