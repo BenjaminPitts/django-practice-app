@@ -22,5 +22,6 @@ urlpatterns = [
     path('', views.home),
     path('about/', views.about),
     path('contact/', views.contact, name='contact'),
-    path('result/', views.result, name='result')
+    path('result/', views.result, name='result'),
+    path('adminpanel/', views.adminpanel, name='adminpanel')
 ]

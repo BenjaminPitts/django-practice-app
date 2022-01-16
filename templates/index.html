@@ -7,13 +7,16 @@
     <link rel='stylesheet' href='{% static "main.css" %}'>
   </head>
   <body>
-    <h2>Benjamin Pitts | Django Practice App</h2>
-    <h4>This application is easily served and can be used for running tests</h4>
-    <h4>See the <a href='https://github.com/BenjaminPitts/django-practice-app' target='blank'>Read Me</a> for setup steps on serving this app locally</h4> 
+    <header>
+    <h1>Benjamin Pitts | Django Practice App</h1>
+    <h5><i>This application is for python/django practice and can be used for running development tests</i></h5>
+    <h4>See the <a href='https://github.com/BenjaminPitts/django-practice-app' target='blank'>Read Me</a> for setup steps on serving this app locally</h4>
+  </header><br> 
     <img src="{% static '123.jpeg' %}">
     <br> | 
     <a href='/about'>About</a> | 
     <a href="{% url 'contact' %}">Contact</a> |
+    <a href="{% url 'adminpanel' %}">Admin-Panel</a> |
     <br>
     <br>
     <form action="{% url 'result' %}">

@@ -4,16 +4,20 @@ body {
   text-align: center;
   font-size: 30px;
 }
-
-
-h2, h3, h4 {
+header {
+  background: gray;
+}
+h1 {
+  text-decoration: underline;
+  margin: .2rem;
+}
+h2, h3, h4, h5 {
   margin: .2%;
   padding: .2%;
-
 }
 a {
   text-decoration: none;
-  font-size: 34px;
+  font-size: 35px;
 }
 a:hover {
   color: ivory;
@@ -28,7 +32,7 @@ button:hover {
   cursor: pointer;
 }
 img {
-  width: 500px;
+  width: 400px;
 }
 input {
 font-size: 20px;

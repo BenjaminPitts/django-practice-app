@@ -15,6 +15,10 @@ def result(request):
     user_int = request.GET['user_int']
     user_int = machine_learning_model.multiplier(user_int)
     return render(request, 'result.html', {'home_input':user_int})
+    
+def adminpanel(request):
+    return render(request, 'adminpanel.html')
+    
 # def result(request):
 #     user_string = user_string.upper()
 #     user_string += ': is the text you entered on the form.'
