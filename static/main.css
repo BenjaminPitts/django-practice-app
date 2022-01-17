@@ -1,5 +1,5 @@
 body {
-  background: black;
+  background: #090909;
   color: gold;
   text-align: center;
   font-size: 30px;
@@ -33,6 +33,7 @@ button:hover {
 }
 img {
   width: 400px;
+  border: 5px solid black;
 }
 input {
 font-size: 20px;
