@@ -17,7 +17,9 @@ h2, h3, h4, h5 {
 }
 a {
   text-decoration: none;
+
   font-size: 44px;
+
 }
 a:hover {
   color: ivory;
