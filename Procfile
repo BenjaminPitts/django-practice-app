@@ -1,1 +1,1 @@
-web: gunicorn manage:main
+web: gunicorn wsgi:manage
