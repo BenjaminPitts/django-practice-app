@@ -17,8 +17,11 @@ def result(request):
     user_int = machine_learning_model.multiplier(user_int)
     return render(request, 'result.html', {'home_input':user_int})
     
-def adminpanel(request):
-    return render(request, 'adminpanel.html')
+def services(request):
+    return render(request, 'services.html')
+    
+def clients(request):
+    return render(request, 'clients.html')
     
 # def result(request):
 #     user_string = user_string.upper()

@@ -2,24 +2,23 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Contact</title>
+    <title>Clients</title>
     {% load static %}
     <link rel='stylesheet' href='{% static "main.css" %}'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=source-sans-pro'>
   </head>
   <body>
     <header>
-    <a href='/'><h1>Hammer and Anvil Hearing</h1></a>
-    <a href='/'>Home</a> | 
-    <a href='/about'>About</a> | 
-    <a href="services">Services</a> | 
-    <a href="/clients">Clients</a> | 
-    <a href="{% url 'contact' %}">Contact</a>
+      <a href='/'><h1>Hammer and Anvil Hearing</h1></a>
+      <a href='/'>Home</a> | 
+      <a href='/about'>About</a> | 
+      <a href="/services">Services</a> | 
+      <a href="/clients">Clients</a> |  
+      <a href="{% url 'contact' %}">Contact</a>
   </header><br>
   <a class='schedule' href='https://calendly.com/benjaminjackpitts/30min' target='blank'>Schedule a Free Evaluation Today</a><br><br>
-    <img src='https://i.imgur.com/MJyninV.jpg'><br><br>
-    <a href='mailto:hammer.anvil.hearing@gmail.com'>hammer.anvil.hearing@gmail.com</a><br>
-    <h5></i>(303) 847-6662</i></h5>
-    <br>
+ <img src="{% static 'H&A-311.jpeg' %}"><br>
+
     <footer><a href='https://www.linkedin.com/in/gianni-digiacomo-6b218942/' target='blank'>LinkedIn</a> | 
         <a href='https://www.facebook.com/HammerandAnvilHearing' target='blank'>Facebook</a> | 
         <a href='https://www.instagram.com/hammer_and_anvil_hearing/' target='blank'>Instagram</a>
