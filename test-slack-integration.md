@@ -1,7 +1,7 @@
 ---
-description: test
+description: test-updated content
 ---
 
 # test-slack-integration
 
-should ping the 'MF doctest channel
+should ping the MF #dctest channel
